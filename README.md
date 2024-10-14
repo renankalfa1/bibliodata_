@@ -46,6 +46,6 @@ Com base no resultado da verificação manual, planejei criar um script Python q
 3. Cria um dataframe de resultados (campos: ISSN, Resultado, ISSN_Associados) para armazenar os resultados da pesquisa.
 Para cada código ISSN,
 4. No site "https://portal.issn.org/", consulta o código em questão
-5. Caso não haja resultados, armazenar "sem resultados" no dataframe de resultados.
+5. Caso não haja resultados, armazenar "Sem resultados" no dataframe de resultados.
 6. Caso entre na página do ISSN, verificar o meio de publicação. Caso seja digital, armazenar "Único - Digital", caso contrato, "Único - Impresso".
-7. Caso retorne mais de um resultado, armazenar os ISSN no dataframe delimitados por vírgula.
+7. Caso retorne mais de um resultado, armazenar os ISSN no dataframe delimitados por vírgula e também armazenar "Vários - Digital".
