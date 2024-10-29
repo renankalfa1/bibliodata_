@@ -92,3 +92,8 @@ Limitações:
 | Possui                                   |                                                          10.376  | 34,73%                     |
 
 Obs: o valor real será maior do que o encontrado, tendo em vista que não foi possível delimitar para somente registros bibliográficos que contenham ISSN e são do Brasil.
+
+### Próximos Passos
+
+1. Investigar registros cancelados.
+2. Encontrar uma maneira de filtrar somente registros do Brasil (o campo area_publicacao não está preenchido em vários registros).
