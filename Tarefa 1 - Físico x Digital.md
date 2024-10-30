@@ -102,6 +102,11 @@ Como base na lista de ISSN do Brasil, consegui filtrar somente registros do Bras
 | Não possui                               | 9010                    | 47,24%                     | Desenvolver script, alterar a tabela de registros e atualizar a   documentação |
 | Possui                                   | 10064                   | 52,76%                     |
 
+Metodologia:
+1. No banco de dados do Bibliodata, foram filtrados apenas os registros que possuem ISSN e que este campo possua até 9 caracteres.
+2. Foi realizado o confrontamento de bases entre a Lista Completa de ISSN (Brasil) e dos registros do passo anterior, de maneira a identificar quais possuem um ISSN linkado que esteja em meio digital e quais ISSN são efetivamente do Brasil.
+3. Com esse confrontamento, foi possível identificar os registros bibliográficos que possuem ISSN e são do Brasil que também possuem a versão digital.
+
 ### Próximos Passos
 
 1. Investigar registros cancelados.
