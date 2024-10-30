@@ -93,6 +93,15 @@ Limitações:
 
 Obs: o valor real será maior do que o encontrado, tendo em vista que não foi possível delimitar para somente registros bibliográficos que contenham ISSN e são do Brasil.
 
+#### Atualização - 30/10/2024
+
+Como base na lista de ISSN do Brasil, consegui filtrar somente registros do Brasil e abaixo encontra-se o seu comportamento:
+
+| Possui versão   digital?                 | Quantidade de registros | %                          |
+|------------------------------------------|-------------------------|----------------------------|
+| Não possui                               | 9010                    | 47,24%                     | Desenvolver script, alterar a tabela de registros e atualizar a   documentação |
+| Possui                                   | 10064                   | 52,76%                     |
+
 ### Próximos Passos
 
 1. Investigar registros cancelados.
