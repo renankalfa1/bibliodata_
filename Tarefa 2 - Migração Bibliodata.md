@@ -59,8 +59,17 @@ SET autoria_evento = (
 DROP TABLE temporaria;
 ```
 
+
+
+
 O resultado das operações realizadas foram coerentes com o resultado desejado, a exemplo:
 
 ![image](https://github.com/user-attachments/assets/b46c183a-b086-40d9-afd7-900cd237dd7b)
 
 Obs: o [repositório]() foi atualizado com os novos scripts.
+
+### Reunião com Lucas Matos - 08/11/2024
+
+Em conversa com o Lucas Matos, marcamos uma conversa na sexta-feira onde ele me apresentou toda a estrutura do código, como ela funcionava e realizou ajustes para que eu possa testar na minha máquina. De começo, precisei instalar algumas libs e configurar as credenciais da conexão. Após isso, executei o programa:
+
+![image](https://github.com/user-attachments/assets/210af0d5-3b23-4233-93ff-1703bfca1170)
