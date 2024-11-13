@@ -78,3 +78,10 @@ Apesar de conseguir gerar, ainda preciso alterar o script para retornar os campo
 
 ![image](https://github.com/user-attachments/assets/33aa6cf2-1803-4607-a9ab-58c1fed1b398)
 
+Depois de depurar o código, consegui ajustar de maneira a trazer o valor do campo desejado:
+
+![image](https://github.com/user-attachments/assets/1ecb7ea6-9c91-40f8-887f-6ffc07889498)
+
+Como o registro está no banco de dados local:
+
+![image](https://github.com/user-attachments/assets/92c8eebe-e8a5-40f1-92d0-c37d4912b4b4)
