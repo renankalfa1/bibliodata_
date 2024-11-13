@@ -73,3 +73,8 @@ Obs: o [repositório]() foi atualizado com os novos scripts.
 Em conversa com o Lucas Matos, marcamos uma conversa na sexta-feira onde ele me apresentou toda a estrutura do código, como ela funcionava e realizou ajustes para que eu possa testar na minha máquina. De começo, precisei instalar algumas libs e configurar as credenciais da conexão. Após isso, executei o programa:
 
 ![image](https://github.com/user-attachments/assets/210af0d5-3b23-4233-93ff-1703bfca1170)
+
+Apesar de conseguir gerar, ainda preciso alterar o script para retornar os campos 100, 110 e 111:
+
+![image](https://github.com/user-attachments/assets/33aa6cf2-1803-4607-a9ab-58c1fed1b398)
+
