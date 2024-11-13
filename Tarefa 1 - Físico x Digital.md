@@ -107,7 +107,20 @@ Metodologia:
 2. Foi realizado o confrontamento de bases entre a Lista Completa de ISSN (Brasil) e dos registros do passo anterior, de maneira a identificar quais possuem um ISSN linkado que esteja em meio digital e quais ISSN são efetivamente do Brasil.
 3. Com esse confrontamento, foi possível identificar os registros bibliográficos que possuem ISSN e são do Brasil que também possuem a versão digital.
 
+Com o resultado acima, criei uma visão no nosso Dashboard Pinakes:
+
+![image](https://github.com/user-attachments/assets/93caac2a-5984-4afb-a858-5a78165fe209)
+
+
+#### Atualização - 13/11/2024
+Com base nos registros fora do Brasil, realizei a verificação pelo webscraper criado e obtive os seguintes resultados:
+![image](https://github.com/user-attachments/assets/fb8251a6-9c22-4d8a-b082-c3e11585d1e8)
+
+A maior fonte de preocupação são os mais de 8 mil casos em que ao pesquisar o ISSN no site, o portal não retorna nenhum resultado.
+
+Arquivo Excel:
+[issn_nao_brasil_final.xlsx](https://github.com/user-attachments/files/17735367/issn_nao_brasil_final.xlsx)
+
 ### Próximos Passos
 
 1. Investigar registros cancelados.
-2. Encontrar uma maneira de filtrar somente registros do Brasil (o campo area_publicacao não está preenchido em vários registros).
