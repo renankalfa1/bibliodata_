@@ -85,3 +85,25 @@ Depois de depurar o código, consegui ajustar de maneira a trazer o valor do cam
 Como o registro está no banco de dados local:
 
 ![image](https://github.com/user-attachments/assets/92c8eebe-e8a5-40f1-92d0-c37d4912b4b4)
+
+## Migração Bibliodata
+
+O meu objetivo nesta sprint era realizar a migração do banco legado do Biliodata e disponibilizar para o Alyson.
+
+Esta migração se dá por meio de duas etapas:
+1. Exportaçao dos campos MARC21 em arquivos CSVs.
+2. Executar uma série de scripts SQL.
+
+A migração em si deveria ser rápida, algo que falei na reunião passada, porém, ao começar a primeira etapa, percebi que o buraco é bem mais embaixo.
+
+De quinta-feira até sábado, consegui exportar cerca de 300 MB de arquivo (em 2023 foram exportados estes arquivos, com um tamanho de 1,14 GB), o que representa menos de 30% do que deveria ser gerado.
+
+Problemas enfrentados:
+1. Queda da conexão com a VNP (acontecia por volta de cada 4h de duração de conexão): 
+![image](https://github.com/user-attachments/assets/8897f4a1-4fd1-495d-b210-d30abbb77bed)
+
+2. Conexão lenta com o banco legado:
+![image](https://github.com/user-attachments/assets/c23169d7-57ea-4dae-a891-3e8166c89d11)
+
+3. Lentidão para realizar selects:
+![image](https://github.com/user-attachments/assets/8d11dfc4-3ba3-46f4-9bde-00019c0ed56d)
